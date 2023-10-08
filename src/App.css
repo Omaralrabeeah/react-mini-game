@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .App-logo {
@@ -14,10 +17,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: orange;
+  background-image: url(./picture/gamer-icon-set-computer-mobile-game-game-console-joystick-different-devices-vector-flat-58366120.webp);
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -40,5 +44,48 @@
   height: 70px;
   width: 70px;
   color: blue;
-  background-color: grey;
+  background-color: white;
+}
+.body {
+  background-image: ;
+  background-size: cover;
+}
+.button-green {
+  background-color: #4caf50; /* Green */
+  border-radius: 50%;
+  height: 100px;
+  width: 150px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button-black {
+  background-color: #020903; /* Green */
+  border-radius: 50%;
+  border: none;
+  height: 100px;
+  width: 150px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button-red {
+  background-color: #eb0a0a; /* Green */
+  border-radius: 50%;
+  border: none;
+  height: 100px;
+  width: 150px;
+  color: rgb(4, 3, 3);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
